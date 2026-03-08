@@ -1,0 +1,22 @@
+{
+  "name": "simp-full-stack-auth-demo",
+  "version": "1.0.0",
+  "description": "Simple full-stack Node/Express app with login, signup, and a protected welcome page for learning purposes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "auth",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.0",
+    "express-session": "^1.17.3"
+  }
+}
